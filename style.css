@@ -1,31 +1,31 @@
-*{
+* {
   padding: 0;
-  margin: 0;  
+  margin: 0;
   box-sizing: border-box;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-.home{
+.home {
   background-image: url(./imagenes/wallNeon.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  width:100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   overflow-x: hidden;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container .containerChild{
+.container .containerChild {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@ body{
   background-color: rgba(26, 26, 26, 0.383);
 }
 
-.textContainer{
+.textContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -43,23 +43,20 @@ body{
   width: 60%;
 }
 
-.titleContainer1{
+.titleContainer1 {
   color: white;
   margin: 10px 0 10px 0;
 }
 
-.titleContainer1 h1{
+.titleContainer1 h1 {
   font-size: 7rem;
   color: white;
   filter: drop-shadow(0px 0px 25px rgb(255, 255, 0));
-
 }
-
 
 /* fuentes */
 
-
-.dancing-script{
+.dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -72,25 +69,20 @@ body{
   font-style: normal;
 }
 
-.tilt-neon{
+.tilt-neon {
   font-family: "Tilt Neon", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "XROT" 0,
-    "YROT" 0;
+  font-variation-settings: "XROT" 0, "YROT" 0;
 }
-
 
 .pizza button:hover {
   background-color: orangered;
 }
 
-.imgContainer1 img:hover{
+.imgContainer1 img:hover {
   filter: drop-shadow(0px 0px 15px rgb(255, 255, 0));
-  
-   
 }
 
 /* @keyframes burguerAnimation {
@@ -112,24 +104,21 @@ body{
   }
 } */
 
-
-
-
-.textContainer2{
+.textContainer2 {
   padding: 4rem 3rem 0 6rem;
 }
 
-.textContainer2 p{
+.textContainer2 p {
   color: white;
   width: 100%;
   font-size: 2rem;
 }
 
-.buttonContainer{
+.buttonContainer {
   margin-top: 5rem;
 }
 
-.orderButton{
+.orderButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,16 +132,16 @@ body{
   filter: drop-shadow(18px 10px 10px rgba(0, 0, 0, 0.445));
 }
 
-.orderButton:hover{
+.orderButton:hover {
   filter: drop-shadow(0px 0px 5px rgb(255, 255, 0));
 }
 
-.orderIcon{
-width: 2.5rem;
-padding: 0 .8rem .5rem 0;
+.orderIcon {
+  width: 2.5rem;
+  padding: 0 0.8rem 0.5rem 0;
 }
 
-.buttonContainer button:hover{
+.buttonContainer button:hover {
   background-color: rgb(255, 251, 42);
   color: black;
   cursor: pointer;
@@ -161,28 +150,28 @@ padding: 0 .8rem .5rem 0;
 /* fuente Google Fonts */
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
-  font-weight:200;
+  font-weight: 200;
   font-style: normal;
 }
 
-.pizzaSmokeContainer{
+.pizzaSmokeContainer {
   width: 40%;
   height: 600px;
   position: relative;
 }
 
-.imgContainer1{
+.imgContainer1 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
 }
 
-.imgContainer1 img{
+.imgContainer1 img {
   position: absolute;
   bottom: 0;
   left: 0px;
-  filter: drop-shadow(50px 15px 8px rgba(0, 0, 0, 0.281)); 
+  filter: drop-shadow(50px 15px 8px rgba(0, 0, 0, 0.281));
   width: 100%;
   /*display: flex;
   justify-content: center;
@@ -194,9 +183,9 @@ padding: 0 .8rem .5rem 0;
       animation-delay: 1s;
       animation-iteration-count: infinite;
        */
-  }
-    
-    /* @keyframes burguerAnimation {
+}
+
+/* @keyframes burguerAnimation {
       0%{
         opacity: 1;
         transform: translatey(0px);
@@ -215,167 +204,226 @@ padding: 0 .8rem .5rem 0;
       }
     } */
 
-    .smokeContainer{
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 300px;
-      filter: opacity(100%);
-    }
+.smokeContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 300px;
+  filter: opacity(100%);
+}
 
-    .smoke, .smoke2, .smoke3{
-      filter: blur(1px);
-      transform-origin: 40% 50%;
-      
-    }
+.smoke,
+.smoke2,
+.smoke3 {
+  filter: blur(1px);
+  transform-origin: 40% 50%;
+}
 
-    .smoke{
-      animation: smoke1 3s linear infinite;
-      animation-delay: 0.5s;
-    }
+.smoke {
+  animation: smoke1 3s linear infinite;
+  animation-delay: 0.5s;
+}
 
-    .smoke2{
-      animation: smoke2 3s linear infinite;
-      animation-delay: 1.5s;
-    }
+.smoke2 {
+  animation: smoke2 3s linear infinite;
+  animation-delay: 1.5s;
+}
 
-    .smoke3{
-      width: 500px;
-      animation: smoke3 4s linear infinite;
-      animation-delay: 2.5s;
-    }
+.smoke3 {
+  width: 500px;
+  animation: smoke3 4s linear infinite;
+  animation-delay: 2.5s;
+}
 
-    @keyframes smoke1 {
-      0%{
-          filter: blur(0px);
-          transform: translateY(0px) scale(-1, 1);
-          opacity: 0;
-      }
-      25%{
-          filter: blur(3px);
-          transform: translateY(-10px) scale(-1, 1.05);
-          opacity: 0.5;
-      }
-      50%{
-          filter: blur(5px);
-          transform: translateY(-20px) scale(-1, 1.1);
-          opacity: 1;
-      }
-      75%{
-          filter: blur(5px);
-          transform: translateY(-30px) scale(-1, 1.15);
-          opacity: 0.5;
-      }
-      100%{
-          filter: blur(7px);
-          transform: translateY(-40px) scale(-1, 1.2);
-          opacity: 0;
-      }
-    }
+@keyframes smoke1 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale(-1, 1);
+    opacity: 0;
+  }
+  25% {
+    filter: blur(3px);
+    transform: translateY(-10px) scale(-1, 1.05);
+    opacity: 0.5;
+  }
+  50% {
+    filter: blur(5px);
+    transform: translateY(-20px) scale(-1, 1.1);
+    opacity: 1;
+  }
+  75% {
+    filter: blur(5px);
+    transform: translateY(-30px) scale(-1, 1.15);
+    opacity: 0.5;
+  }
+  100% {
+    filter: blur(7px);
+    transform: translateY(-40px) scale(-1, 1.2);
+    opacity: 0;
+  }
+}
 
-    @keyframes smoke2 {
-      0%{
-          filter: blur(0px);
-          transform: translateY(0px) scale(1);
-          opacity: 0;
-      }
-      25%{
-          filter: blur(3px);
-          transform: translateY(-10px) scale(1.05);
-          opacity: 0.5;
-      }
-      50%{
-          filter: blur(5px);
-          transform: translateY(-20px) scale(1.1);
-          opacity: 1;
-      }
-      75%{
-          filter: blur(5px);
-          transform: translateY(-30px) scale(1.15);
-          opacity: 0.5;
-      }
-      100%{
-          filter: blur(7px);
-          transform: translateY(-40px) scale(1.2);
-          opacity: 0;
-      }
-    }
+@keyframes smoke2 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+  25% {
+    filter: blur(3px);
+    transform: translateY(-10px) scale(1.05);
+    opacity: 0.5;
+  }
+  50% {
+    filter: blur(5px);
+    transform: translateY(-20px) scale(1.1);
+    opacity: 1;
+  }
+  75% {
+    filter: blur(5px);
+    transform: translateY(-30px) scale(1.15);
+    opacity: 0.5;
+  }
+  100% {
+    filter: blur(7px);
+    transform: translateY(-40px) scale(1.2);
+    opacity: 0;
+  }
+}
 
-    @keyframes smoke3 {
-      0%{
-          filter: blur(0px);
-          transform: translateY(0px) scale(1);
-          opacity: 0;
-      }
-      25%{
-          filter: blur(3px);
-          transform: translateY(-20px) scale(1.05);
-          opacity: 0.5;
-      }
-      50%{
-          filter: blur(5px);
-          transform: translateY(-40px) scale(1.1);
-          opacity: 1;
-      }
-      75%{
-          filter: blur(5px);
-          transform: translateY(-60px) scale(1.15);
-          opacity: 0.5;
-      }
-      100%{
-          filter: blur(7px);
-          transform: translateY(-80px) scale(1.2);
-          opacity: 0;
-      }
-    }
+@keyframes smoke3 {
+  0% {
+    filter: blur(0px);
+    transform: translateY(0px) scale(1);
+    opacity: 0;
+  }
+  25% {
+    filter: blur(3px);
+    transform: translateY(-20px) scale(1.05);
+    opacity: 0.5;
+  }
+  50% {
+    filter: blur(5px);
+    transform: translateY(-40px) scale(1.1);
+    opacity: 1;
+  }
+  75% {
+    filter: blur(5px);
+    transform: translateY(-60px) scale(1.15);
+    opacity: 0.5;
+  }
+  100% {
+    filter: blur(7px);
+    transform: translateY(-80px) scale(1.2);
+    opacity: 0;
+  }
+}
 
- 
 /* Celulares pequeños */
-@media screen and (min-width: 480px) and (max-width: 1085px) {
-  .containerChild{
-    flex-direction: column;
+@media screen and (min-width: 480px) and (max-width: 699px) {
+  .titleContainer1 h1 {
+    font-size: 3.5em;
+    margin-top: 1em;
   }
 
-  .textContainer{
+  .textContainer {
     width: 100%;
   }
 
-  .textContainer2{
-    
+  .textContainer2 p {
+    font-size: 1.4em;
   }
 
+  .containerChild {
+    flex-direction: column;
+  }
+
+  .buttonContainer {
+    position: relative;
+    z-index: 19;
+  }
+
+  .pizzaSmokeContainer {
+    width: 65%;
+    margin-bottom: 2em;
+  }
+
+  .pizzaSmokeContainer .smokeContainer {
+    bottom: 30px;
+  }
+
+  .pizzaSmokeContainer .imgContainer1 img {
+    width: 100%;
+  }
 }
 
+@media screen and (min-width: 700px) and (max-width: 909px) {
+  .titleContainer1 h1 {
+    font-size: 3.5em;
+    margin-top: 1em;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+
+  .textContainer2 p {
+    font-size: 1.7em;
+  }
+  .containerChild {
+    flex-direction: column;
+  }
+
+  .buttonContainer {
+    position: relative;
+    z-index: 19;
+  }
+
+  .pizzaSmokeContainer {
+    width: 65%;
+    margin-bottom: 2em;
+  }
+
+  .pizzaSmokeContainer .imgContainer1 img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1085px) {
+  .containerChild {
+    flex-direction: column;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+}
 
 /* Tabletas */
 @media screen and (min-width: 1085px) and (max-width: 1299px) {
-  .titleContainer1 h1{
+  .titleContainer1 h1 {
     font-size: 5em;
   }
 
-  .textContainer2 p{
+  .textContainer2 p {
     font-size: 1.7em;
   }
 
-  .pizzaSmokeContainer{
+  .pizzaSmokeContainer {
     /* width: 40%;
     height: 600px;
     position: relative; */
     margin-bottom: 15em;
   }
-  
 }
 
-
-    /* Desktop */
+/* Desktop */
 @media screen and (min-width: 1300px) and (max-width: 1530px) {
-  .titleContainer1 h1{
+  .titleContainer1 h1 {
     font-size: 6em;
   }
 
-  .textContainer2 p{
+  .textContainer2 p {
     font-size: 1.7em;
   }
-
-} 
-    
+}
