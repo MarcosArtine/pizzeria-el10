@@ -55,10 +55,6 @@ body{
 
 }
 
-.textContainer2{
-  color: white;
-  padding: 0 5rem ;
-}
 
 /* fuentes */
 
@@ -334,24 +330,52 @@ padding: 0 .8rem .5rem 0;
     }
 
  
-/* Celulares pequeños 
-@media screen and (max-width: 480px) {
-  /* Estilos para celulares pequeños 
-}
-
-
-/* Tabletas 
-@media screen and (min-width: 768px) and (max-width: 1549px) {
-  /* Estilos para tablets 
-  .titleContainer1 h1{
-    background: white;
+/* Celulares pequeños */
+@media screen and (min-width: 480px) and (max-width: 1085px) {
+  .containerChild{
+    flex-direction: column;
   }
+
+  .textContainer{
+    width: 100%;
+  }
+
+  .textContainer2{
+    
+  }
+
 }
 
 
-    /* Pantallas grandes 
-@media screen and (min-width: 1550px) {
-   Estilos para pantallas grandes 
+/* Tabletas */
+@media screen and (min-width: 1085px) and (max-width: 1299px) {
+  .titleContainer1 h1{
+    font-size: 5em;
+  }
 
-} */
+  .textContainer2 p{
+    font-size: 1.7em;
+  }
+
+  .pizzaSmokeContainer{
+    /* width: 40%;
+    height: 600px;
+    position: relative; */
+    margin-bottom: 15em;
+  }
+  
+}
+
+
+    /* Desktop */
+@media screen and (min-width: 1300px) and (max-width: 1530px) {
+  .titleContainer1 h1{
+    font-size: 6em;
+  }
+
+  .textContainer2 p{
+    font-size: 1.7em;
+  }
+
+} 
     
